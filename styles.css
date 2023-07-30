@@ -1,10 +1,10 @@
 fieldset{
 	width: 75%;
 	margin-left: 11%;
-	margin-top: 12rem;
+	margin-top: 12%;
 	padding-bottom: 10rem;
 	background: rgba(255,255, 255, .3);
-	background: linear-gradient(95deg, #AA046B,#FF222B);
+	background: linear-gradient(95deg, lightgreen,darkcyan);
 	border-radius: 60px;
 	backdrop-filter:blur(10px);
 	-webkit-backrop-filter: blur(10px);
@@ -14,7 +14,7 @@ fieldset{
 }
 body{
 	background-image: url('img/55.jpg');
-	background-size: 100vh 100vh;
+	background-size: 100vh 120vh;
 }
 .d11{
 	width: 30%;
@@ -60,7 +60,15 @@ input[type="submit"]{
 	font-family:andalus;
 	border-color: white;
 	letter-spacing: 2px;
-	
+	text-decoration: double underline blue;
+	animation-name: examples;
+	animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes examples {
+  from {background: linear-gradient(95deg, lightgreen,darkcyan); }
+  to {background: linear-gradient(95deg, darkcyan,lightgreen);  }
 }
 
 
@@ -79,7 +87,7 @@ h1{
 }
 
 input{
-	background: linear-gradient(95deg, darkcyan,lightgreen);
+	background-color: white;
 	border-left: 1px solid rgba(255, 255, 255, .3);
 	border-top:  1px solid rgba(255, 255, 255, .3);
 	padding: 1rem;
