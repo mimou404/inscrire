@@ -3,29 +3,45 @@ body{
 }
 h1{
 	color: white;
-	font-size: 55px;
+	font-size: 48px;
 	text-align: center;
 	background: linear-gradient(95deg, #AA046B,#FF222B);
 	width:60%;
-	border-radius: 70px;
+	border-radius: 30px;
 	color: white;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0);
-	font-family:andalus;
+	font-style: oblique;
 	border-color: white;
 	letter-spacing: 5px;
-	margin-left: 20%;
-	margin-top: 3%;
+	margin-left: 18%;
+	margin-top: 10%;
+	padding: 19px;
+	 animation-name: examples;
+	animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
-
+@keyframes examples {
+  from {background: linear-gradient(95deg, #FF222B,#AA046B); }
+  to {background: linear-gradient(95deg, #AA046B,#FF222B);  }
+}
 div{
 	width: 77%;
 	margin-left: 11%;
-	margin-top: 20%;
+	margin-top: 40%;
 	background: linear-gradient(95deg, #AA046B,#FF222B);
 	border-radius: 60px;
 	box-shadow: 28px 20px 40px -6px rgba(0, 0, 0, .2);
 	border-color: white;
 	height: 38rem;
+	animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example {
+  from {background: linear-gradient(95deg, #AA046B,#FF222B); }
+  to {background: linear-gradient(95deg, #FF222B,#AA046B);  }
 }
 a{
 	color: white;
