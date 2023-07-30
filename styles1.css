@@ -1,12 +1,13 @@
 body{
-        background-image: url('img/55.jpg');
-	background-size: 100vh 100vh; 
+	background-image: url('img/55.jpg');
+	background-size: 100vh 100vh;
+
 }
 h1{
 	color: white;
 	font-size: 48px;
 	text-align: center;
-	background: linear-gradient(95deg, #AA046B,#FF222B);
+	background: linear-gradient(95deg, lightgreen,darkcyan);
 	width:60%;
 	border-radius: 30px;
 	color: white;
@@ -17,20 +18,20 @@ h1{
 	margin-left: 18%;
 	margin-top: 10%;
 	padding: 19px;
-	 animation-name: examples;
+	animation-name: examples;
 	animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 @keyframes examples {
-  from {background: linear-gradient(95deg, #FF222B,#AA046B); }
-  to {background: linear-gradient(95deg, #AA046B,#FF222B);  }
+  from {background: linear-gradient(95deg, lightgreen,darkcyan); }
+  to {background: linear-gradient(95deg, darkcyan,lightgreen);  }
 }
 div{
 	width: 77%;
 	margin-left: 11%;
 	margin-top: 40%;
-	background: linear-gradient(95deg, #AA046B,#FF222B);
+	background: linear-gradient(95deg, darkcyan,lightgreen);
 	border-radius: 60px;
 	box-shadow: 28px 20px 40px -6px rgba(0, 0, 0, .2);
 	border-color: white;
@@ -41,13 +42,13 @@ div{
     animation-direction: alternate;
 }
 @keyframes example {
-  from {background: linear-gradient(95deg, #AA046B,#FF222B); }
-  to {background: linear-gradient(95deg, #FF222B,#AA046B);  }
+  from {background: linear-gradient(95deg, darkcyan,lightgreen); }
+  to {background: linear-gradient(95deg, lightgreen,darkcyan);  }
 }
 a{
 	color: white;
 	font-family: andalus;
-	text-decoration: double underline red;
+	text-decoration: none;
 }
 
 .inscrire{
@@ -55,7 +56,7 @@ a{
 	font-size: 45px;
 	text-align: center;
 	margin-top: 30%;
-	background: linear-gradient(95deg, lightgreen,darkcyan);
+	background: linear-gradient( darkblue,10%,darkcyan);
 	width:50%;
 	padding: 15px;
 	border-radius: 50px;
