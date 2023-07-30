@@ -1,5 +1,6 @@
 body{
-        background: linear-gradient(95deg, lightgreen,darkcyan);
+        background-image: url('img/55.jpg');
+	background-size: 100vh 100vh; 
 }
 h1{
 	color: white;
