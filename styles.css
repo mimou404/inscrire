@@ -1,0 +1,97 @@
+fieldset{
+	width: 75%;
+	margin-left: 11%;
+	margin-top: 12rem;
+	padding-bottom: 10rem;
+	background: rgba(255,255, 255, .3);
+	background: linear-gradient(95deg, #AA046B,#FF222B);
+	border-radius: 60px;
+	backdrop-filter:blur(10px);
+	-webkit-backrop-filter: blur(10px);
+	-moz-backrop-filter: blur(18px);
+	box-shadow: 28px 20px 40px -6px rgba(0, 0, 0, .2);
+	border: 3px black ;
+}
+body{
+	background: linear-gradient(95deg, lightgreen,darkcyan);
+}
+.d11{
+	width: 30%;
+	margin-top: -117rem;
+	padding-bottom: 10rem;
+	background: rgba(255,255, 255, .3);
+	background-color: transparent;
+	border-radius: 60px;
+	backdrop-filter:blur(10px);
+	-webkit-backrop-filter: blur(10px);
+	-moz-backrop-filter: blur(18px);
+	box-shadow: 28px 20px 40px -2px rgba(0, 0, 0, .2);
+	border-color: white;
+	height: 7rem;
+}
+.d22{
+	width: 30%;
+	margin-left: 66%;
+	margin-top: 88rem;
+	padding-bottom: 10rem;
+	background: rgba(255,255, 255, .3);
+	background-color: transparent;
+	border-radius: 60px;
+	backdrop-filter:blur(10px);
+	-webkit-backrop-filter: blur(10px);
+	-moz-backrop-filter: blur(18px);
+	box-shadow: 28px 20px 40px -6px rgba(0, 0, 0, .2);
+	border-color: white;
+	height: 7rem;
+}
+
+input[type="submit"]{
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	background: linear-gradient(95deg, lightgreen,darkcyan);
+	width:50%;
+	padding: 15px;
+	border-radius: 50px;
+	box-shadow: 4px 4px 68px rgba(0, 0, 0, .2);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0);
+	margin-left: 25%;
+	font-family:andalus;
+	border-color: white;
+	letter-spacing: 2px;
+	
+}
+
+
+h1{
+	color: white;
+	font-weight: 500;
+	font-size: 5rem;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+	margin-top: 0.7rem;
+}
+::placeholder{
+	color :darkgray;
+	font-size: 2.5rem;
+	letter-spacing: 3px;
+}
+
+input{
+	background: linear-gradient(95deg, darkcyan,lightgreen);
+	border-left: 1px solid rgba(255, 255, 255, .3);
+	border-top:  1px solid rgba(255, 255, 255, .3);
+	padding: 1rem;
+	font-size: 2.5rem;
+	width:40rem;
+	border-radius: 50px;
+	border-color: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	box-shadow: 4px 4px 68px rgba(0, 0, 0, .2);
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0);
+	transition: all .3s;
+	margin-bottom: 2rem;
+	margin-left: 1rem;
+	font-family:andalus;
+}

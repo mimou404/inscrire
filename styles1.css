@@ -1,0 +1,51 @@
+body{
+	background: linear-gradient(95deg, lightgreen,darkcyan);
+}
+h1{
+	color: white;
+	font-size: 55px;
+	text-align: center;
+	background: linear-gradient(95deg, #AA046B,#FF222B);
+	width:60%;
+	border-radius: 70px;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0);
+	font-family:andalus;
+	border-color: white;
+	letter-spacing: 5px;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+
+div{
+	width: 77%;
+	margin-left: 11%;
+	margin-top: 20%;
+	background: linear-gradient(95deg, #AA046B,#FF222B);
+	border-radius: 60px;
+	box-shadow: 28px 20px 40px -6px rgba(0, 0, 0, .2);
+	border-color: white;
+	height: 38rem;
+}
+a{
+	color: white;
+	font-family: andalus;
+	text-decoration: double underline red;
+}
+
+.inscrire{
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 30%;
+	background: linear-gradient(95deg, lightgreen,darkcyan);
+	width:50%;
+	padding: 15px;
+	border-radius: 50px;
+	box-shadow: 4px 4px 68px rgba(0, 0, 0, .2);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0);
+	margin-left: 23%;
+	font-family:andalus;
+	border-color: white;
+	letter-spacing: 2px;
+}
